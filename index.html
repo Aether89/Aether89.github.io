@@ -1,15 +1,122 @@
 <!DOCTYPE html>
 <html>
+<title>Aether89's Internet Hub</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" type="text/css" href="style.css">
+
 <body>
-<h1>Hi am <a href="https://github.com/Aether89">Aether89</a></h1>
-<p>My Projects are <a href="https:\\magatama.aether89.com">Magatama</a> &amp; <a href="pbcf.aether89.com">Pip-Boy Customisation Framework</a></p>
 
-<h3><a href="https:\\magatama.aether89.com">Magatama</a></h3>
-<p><a href="https:\\magatama.aether89.com">Magatama</a> was made to help plan Mags in Phantasy Star Online BlueBurst.<br> It was inspired by MagFarm and bring a much needed modern touch</p>
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+    <div class="w3-container">
+      <h3 class="w3-padding-64"><b>Aether89</b></h3>
+    </div>
+    <div class="w3-bar-block">
+      <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+      <a href="#Introduction" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Introduction</a>
+      <a href="#Programs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Programs</a>
+      <a href="#Mods" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Mods</a>
+      <a href="#Utilities" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Utilities</a>
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    </div>
+  </nav>
 
-<h3><a href="http:\\pbcf.aether89.com">Pip-Boy Customisation Framework</a></h3>
-<p><a href="http:\\pbcf.aether89.com">Pip-Boy Customisation Framework</a> aka <b>PBCF</b> is a mod for Fallout 4.<br>It allow to modify the Pip-Boy skins in-game. It predate the Creation Club update which allowed to modify the Pip-Boy in-game. <br>It has been updated to support the official method but it still is usefull as it bring some more options. More Parts to modify , Misc Mod &amp z Dynamics Namings.</p>
+  <!-- Top menu on small screens -->
+  <header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
+    <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
+    <span>Aether89</span>
+  </header>
 
-<p>I'm hosted with GitHub Pages.</p>
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+    <!-- Header -->
+    <div class="w3-container" style="margin-top:80px" id="Introduction">
+      <h1 class="w3-jumbo"><b>Aether89's Internet Hub</b></h1>
+      <h1 class="w3-xxxlarge w3-text-amber"><b>Introduction.</b></h1>
+      <hr style="width:50px;border:5px solid cornflowerblue" class="w3-round">
+      <p>I am Aether89, and i am from the Province of Québec.</p>
+      <p>This pages is to serves as a central hub to access my current and past projects. One thing that most of my projects have in common is that they were made to somehow fill a need. Some are quite simple other more advanced but each of them make me
+        proud.
+      </p>
+    </div>
+
+    <!-- Programs -->
+    <div class="w3-container" id="programs" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-amber"><b>Programs.</b></h1>
+      <hr style="width:50px;border:5px solid cornflowerblue" class="w3-round">
+      <h2>>> <a href="https://magatama.aether89.com" class="url">Magatama</a> << </h2>
+      <p>Magatama is a Modern Mag Planner / Calculator for Phantasy Star Online.<br /> This program was conceptualised when i realised that i had the know how to make a improved spiritual sucessor to Mag Farm 0.9.7r2 by James Baxter, which is showing it
+        age.
+      </p>
+    </div>
+
+    <!-- Mods -->
+    <div class="w3-container" id="Mods" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-amber"><b>Mods.</b></h1>
+      <hr style="width:50px;border:5px solid cornflowerblue" class="w3-round">
+      <h2 class="game">Fallout 4</h2>
+      <h3>>> <a href="https://pbcf.aether89.com" class="url">Pip-Boy Customisation Framework</a> << </h2>
+      <p>Pip-Boy Customisation Framework aka <b>PBCF</b>was made to allow to edit the Pip-Boy look directly in-game. It predate the release of the official Bethesda implementation of the idea by a Year an 29 days. Even with the official support of in-game modification for the Pip-Boy this mods still have a purpose as it add Categories to filter paint job, abilities to change each part separetely rather than as a whole, Misc Mods and Dynamics Naming. PBCF only contains textures for the labels and the screens, other textures for the Pip-Boy are available as a separate mods.
+      </p>
+
+      <h3>>> <a href="https://pbcf.aether89.com" class="url">Pip-Boy Customisation Pack</a> << </h2>
+      <p>Pip-Boy Customisation Pack aka <b>PBCP</b>While Pip-Boy Customisation Pack now require Pip-Boy Customisation Framework it actually predate it by 6 Month and 20 Days. Intitialy it was called Pip-Boy Customisation as it allowed to modify some parts of the Pip-Boy and served as a base for other to build on; However, i soon retooled it into the Pip-Boy Customisation Pack so that the basic Framework to modify the Pip-Boy would be it own thin and wouldn't require to download the rextextures i had made.
+      </p>
+      <hr />
+
+      <h2 class="game">Fallout : New Vegas</h2>
+      <h3><a href="https://vtlw.aether89.com" class="url">Vault-Tec Loading Wheel</a></h2>
+      <p>While it actually is my third mod for Fallout: New Vegas, this is the only one that remain under my name.
+        The idea was born when i realised that the default Roulette Loading wheel for Fallout: New Vegas was similar to the Vault-Tec Logo and if simply replaced the wheel part it would be a perfect match.
+      </p>
+
+      <h3><a href="https://www.nexusmods.com/newvegas/mods/42363" class="url">Project Nevada Patches</a> / <a href="https://www.nexusmods.com/newvegas/mods/47285" class="url">Project Nevada - Extra Options</a></h2>
+      <p>Whiles these mods two mods aren't develloped by me but by Gribbleshnibit8, i played a part in the history of the Project Nevada DLC Patches. I originally had made small patchs to add Project Nevada Functionality to the DLC and then Gribbleshnibit8 improved on them. Nowadays the only trace of my involvement into these dlc patches is the Visor Overlay Textures for Salt-Upon-Wound's.
+      </p>
+<hr />
+<h2 class="game">The Elder Scrolls IV: OBLIVION </h2>
+<h3> <a href="https://mageofthearena.aether89.com" class="url">Mage of the Arena</a></h2>
+<p>This is my first mod ever. I made it when i had enought of being forced to wear a light or Heavy armor in the Imperial City Arena and wanted to be able to wear a mage robes while fighting as a mage. While not the only mods to add that functionality it is the only one at the time that when you selected the Mage Raiments you would have a voiced reactions by Owyn and Ysabel. Also at install it offer you two meshes options a custom edit of the vanilla mage robes to have the gloves and sandal of the Light Raiment made by me or the Mage Robe from Mage Equipments by Aknevrec.
+</p>
+    </div>
+    <!-- Utilities -->
+    <div class="w3-container" id="Utilities" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-amber"><b>Utilities.</b></h1>
+      <hr style="width:50px;border:5px solid cornflowerblue" class="w3-round">
+      <h2> <a href="https://bgfs.aether89.com" class="url">BGS Files - File Explorer Sorting</a></h2>
+      <p>While hosted on the Fallout 4 Nexus it is used to assign Custom Icons and help sort ESM, ESP, ESL, BSA &amp; BA2 files. *Without these edit ESL are grouped with ESP.
+      </p>
+    </div>
+
+    <!-- Contact -->
+    <div class="w3-container" id="contact" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-amber"><b>Contact.</b></h1>
+      <hr style="width:50px;border:5px solid cornflowerblue" class="w3-round">
+      <p>Want to contact me here the options you have to do so.</p>
+<a href="mailto:dev@aether89.com?Subject=Hello%20again" target="_top" id="mail" class="w3-button w3-block w3-padding-large w3-blue w3-margin-bottom">Send Message</a>
+
+      </form>
+    </div>
+
+    <!-- End page content -->
+  </div>
+
+  <!-- W3.CSS Container -->
+  <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+    <p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a><br /> based on the W3.CSS Website Template Interior Design Template <br />hosted by GitHub Pages</p>
+
+  </div>
+
+
+
 </body>
+
 </html>
